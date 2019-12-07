@@ -1,0 +1,864 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@Article{Abril07,
+  author        = "Patricia S. Abril and Robert Plant",
+  title         = "The patent holder's dilemma: Buy, sell, or troll?",
+  journal       = "Communications of the ACM",
+  volume        = "50",
+  number        = "1",
+  month         = jan,
+  year          = "2007",
+  pages         = "36--44",
+  doi           = "10.1145/1188913.1188915",
+  url           = "http://doi.acm.org/10.1145/1219092.1219093",
+  note          = "",
+}
+
+
+@InProceedings{qi2017pointnet,
+  author    = {Qi Charles, R and Su, Hao and Kaichun, Mo and Guibas, Leonidas},
+  title     = {PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2017},
+  month     = {7},
+  pages     = {77-85},
+}
+ 
+
+@InProceedings{paszke2017automatic,
+  author    = {Paszke, Sam Gross, Soumith Chintala, Gregory
+Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Al-ban Desmaison, Luca Antiga, and Adam Lerer.},
+  title     = {Automatic differentiation in PyTorch.},
+  booktitle = {Proceedings of the International Conference on Neural Information Processing Systems Workshop},
+  year      = {2017},
+
+}
+ Adam: A method for
+stochastic optimization. In ICLR, 2015.
+
+@InProceedings{kingma2014adam,
+  author    = {Diederik P. Kingma and Jimmy Ba.},
+  title     = {Adam: A Method for Stochastic Optimization},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2014},
+ 
+}
+
+@InProceedings{qi2017pointnet++,
+  author    = {Qi Charles, R and Su, Hao and Kaichun, Mo and Guibas, Leonidas},
+  title     = {PointNet++: Deep hierarchical feature learning on point sets in a metric space},
+  booktitle = {Proceedings of the International Conference on Neural Information Processing Systems},
+  year      = {2017},
+  month     = {9},
+  pages     = {5105-5114 },
+}
+
+@InProceedings{landrieu2018large,
+  author    = {Landrieu, Loic and Simonovsky, Martin},
+  title     = {Large-scale point cloud semantic segmentation with superpoint graphs},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {7},
+  pages     = {4558-4567},
+}
+
+@InProceedings{long2015fully,
+  author    = {Long, Jonathan and Shelhamer, Evan and Darrell, Trevor},
+  title     = {Fully convolutional networks for semantic segmentation},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2015},
+  month     = {7},
+  pages     = {3431-3440},
+}
+
+@InProceedings{kirillov2018panoptic,
+  author    = {Kirillov, Alexander and He, Kaiming and Girshick, Ross and Rother, Carsten and Doll{\'a}r, Piotr},
+  title     = {Panoptic segmentation},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2019},
+  month     = {7},
+  pages     = {9404-9413},
+}
+
+@InProceedings{parmar2018image,
+  author    = {Parmar, Niki and Vaswani, Ashish and Uszkoreit, Jakob and Kaiser, {\L}ukasz and Shazeer, Noam and Ku, Alexander and Tran, Dustin},
+  title     = {Image transformer},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2018},
+  pages     = {4052-4061},
+}
+
+
+
+@inproceedings{vaswani2017attention,
+	title={Attention is all you need},
+	author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+	booktitle={Proceedings of the International Conference on Neural Information Processing Systems},
+	pages={5998--6008},
+	year={2017}
+}
+
+
+@article{chen2018deeplab,
+  title={DeepLab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs},
+  author={Chen, Liang-Chieh and Papandreou, George and Kokkinos, Iasonas and Murphy, Kevin and Yuille, Alan L},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={40},
+  number={4},
+  pages={834--848},
+  year={2018},
+  publisher={IEEE}
+}
+
+@InProceedings{kingma2014adam,
+  author    = {Kingma, Diederik P and Ba, Jimmy},
+  title     = {Adam: A method for stochastic optimization},
+  journal={CoRR},
+  year={2014},
+  pages = {4052-4061},
+}
+
+
+@InProceedings{wang2017non,
+  author    = {Wang, Xiaolong and Girshick, Ross and Gupta, Abhinav and He, Kaiming},
+  title     = {Non-local neural networks},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018},
+  month     = {7},
+  pages     = {7794-7803},
+}
+
+@InProceedings{hackel2017semantic3d,
+  author    = {Timo {Hackel} and Nikolay {Savinov} and Lubor {Ladicky} and Jan Dirk {Wegner} and Konrad {Schindler} and Marc {Pollefeys}},
+  title     = {Semantic3d. net: A new large-scale point cloud classification benchmark},
+  booktitle = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  year      = {2017},
+  pages     = {91--98},
+}
+
+@InProceedings{geiger2012we,
+  author    = {Geiger, Andreas and Lenz, Philip and Urtasun, Raquel},
+  title     = {Are we ready for autonomous driving? the kitti vision benchmark suite},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2012},
+  month     = {7},
+  pages     = {3354-3361},
+}
+
+
+@inproceedings{moosmann2011velodyne,
+  title={Velodyne slam},
+  author={Moosmann, Frank and Stiller, Christoph},
+  booktitle={Intelligent Vehicles Symposium (IV), 2011 IEEE},
+  pages={393--398},
+  year={2011},
+  organization={IEEE}
+}
+
+@InProceedings{li2018pointcnn,
+  author    = {Li, Yangyan and Bu, Rui and Sun, Mingchao and Wu, Wei and Di, Xinhan and Chen, Baoquan},
+  title     = {Point{CNN}: Convolution On {X}-Transformed Points},
+  booktitle = {Proceedings of the International Conference on Neural Information Processing Systems},
+  year      = {2018},
+  pages     = {820-830},
+}
+
+@InProceedings{tchapmi2017segcloud,
+  author    = {Li, Yangyan and Bu, Rui and Sun, Mingchao and Wu, Wei and Di, Xinhan and Chen, Baoquan},
+  title     = {{SEGCloud}: Semantic segmentation of 3{D} point clouds},
+  booktitle = {International Conference on 3D Vision. },
+  year      = {2017},
+  pages     = {537--547},
+}
+
+
+@inproceedings{wu2018squeezeseg,
+  title={Squeeze{S}eg: Convolutional neural nets with recurrent {CRF} for real-time road-object segmentation from 3{D} lidar point cloud},
+  author={Wu, Bichen and Wan, Alvin and Yue, Xiangyu and Keutzer, Kurt},
+  booktitle={IEEE International Conference on Robotics and Automation },
+  pages={1887--1893},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{wang2018pointseg,
+  title={Point{S}eg: Real-Time Semantic Segmentation Based on 3D LiDAR Point Cloud},
+  author={Wang, Yuan and Shi, Tianyue and Yun, Peng and Tai, Lei and Liu, Ming},
+  journal={CoRR},
+  year={2018}
+}
+
+
+@inproceedings{zermas2017fast,
+  title={Fast segmentation of 3d point clouds: A paradigm on lidar data for autonomous vehicle applications},
+  author={Zermas, Dimitris and Izzat, Izzat and Papanikolopoulos, Nikolaos},
+  booktitle={Robotics and Automation (ICRA), 2017 IEEE International Conference on},
+  pages={5067--5073},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{lee2013study,
+  title={A study on {L}2-loss (squared hinge-loss) multiclass {SVM}},
+  author={Lee, Ching-Pei and Lin, Chih-Jen},
+  journal={Neural computation},
+  volume={25},
+  number={5},
+  pages={1302--1323},
+  year={2013},
+  publisher={MIT Press}
+}
+
+@inproceedings{zhang2018efficient,
+  title={Efficient Convolutions for Real-Time Semantic Segmentation of 3{D} Point Clouds},
+  author={Zhang, Chris and Luo, Wenjie and Urtasun, Raquel},
+  booktitle={International Conference on 3D Vision},
+  pages={399--408},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{caltagirone2017fast,
+  title={Fast {LIDAR}-based road detection using fully convolutional neural networks},
+  author={Caltagirone, Luca and Scheidegger, Samuel and Svensson, Lennart and Wahde, Mattias},
+  journal={arXiv preprint arXiv:1703.03613},
+  year={2017}
+}
+
+
+@InProceedings{riegler2017octnet,
+  author    = {Gernot {Riegler} and Ali Osman {Ulusoy} and Andreas {Geiger}},
+  title     = {{OctNet}: Learning Deep 3D Representations at High Resolutions},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2017},
+  month     = {7},
+  pages     = {3577--3586},
+}
+
+
+@inproceedings{dewan2017deep,
+  title={Deep semantic classification for 3{D} lidar data},
+  author={Dewan, Ayush and Oliveira, Gabriel L and Burgard, Wolfram},
+  booktitle={International Conference on Intelligent Robots and Systems (IROS)},
+  pages={3544--3549},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{oliveira2016efficient,
+  title={Efficient deep models for monocular road segmentation},
+  author={Oliveira, Gabriel L and Burgard, Wolfram and Brox, Thomas},
+  booktitle={International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4885--4891},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{piewak2018boosting,
+  title={Boosting {LiDAR}-based Semantic Labeling by Cross-Modal Training Data Generation},
+  author={Piewak, Florian and Pinggera, Peter and Sch{\"a}fer, Manuel and Peter, David and Schwarz, Beate and Schneider, Nick and Pfeiffer, David and Enzweiler, Markus and Z{\"o}llner, Marius},
+  journal={arXiv preprint arXiv:1804.09915},
+  year={2018}
+}
+
+@inproceedings{varga2017super,
+  title={Super-sensor for 360-degree environment perception: Point cloud segmentation using image features},
+  author={Varga, Robert and Costea, Arthur and Florea, Horatiu and Giosan, Ion and Nedevschi, Sergiu},
+  booktitle={IEEE International Conference on Intelligent Transportation Systems (ITSC)},
+  pages={1--8},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{jiang2018pointsift,
+  title={Point{SIFT}: A {SIFT}-like Network Module for 3{D} Point Cloud Semantic Segmentation},
+  author={Jiang, Mingyang and Wu, Yiran and Lu, Cewu},
+  journal={CoRR},
+  year={2018}
+}
+
+@inproceedings{boulch2017unstructured,
+  title={Unstructured point cloud semantic labeling using deep segmentation networks},
+  author={Boulch, A and Saux, B Le and Audebert, N},
+  booktitle={Proceedings of the Workshop on 3D Object Retrieval},
+  pages={17--24},
+  year={2017},
+  organization={Eurographics Association}
+}
+
+
+@article{lowe2004distinctive,
+  title={Distinctive image features from scale-invariant keypoints},
+  author={Lowe, David G},
+  journal={International journal of computer vision},
+  volume={60},
+  number={2},
+  pages={91--110},
+  year={2004},
+  publisher={Springer}
+}
+
+
+@inproceedings{chen2017multi,
+  title={Multi-view 3{D} object detection network for autonomous driving},
+  author={Chen, Xiaozhi and Ma, Huimin and Wan, Ji and Li, Bo and Xia, Tian},
+  booktitle={Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages={1907--1915},
+  year={2017}
+}
+
+@inproceedings{maturana2015voxnet,
+  title={{V}ox{N}et: A 3{D} convolutional neural network for real-time object recognition},
+  author={Maturana, Daniel and Scherer, Sebastian},
+  booktitle={IEEE International Conference on Intelligent Robots and Systems (IROS)},
+  pages={922--928},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{qi2016volumetric,
+  title={Volumetric and multi-view cnns for object classification on 3D data},
+  author={Qi, Charles R and Su, Hao and Nie{\ss}ner, Matthias and Dai, Angela and Yan, Mengyuan and Guibas, Leonidas J},
+  booktitle={Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages={5648--5656},
+  year={2016}
+}
+
+@inproceedings{xu2015show,
+  title={Show, attend and tell: Neural image caption generation with visual attention},
+  author={Xu, Kelvin and Ba, Jimmy and Kiros, Ryan and Cho, Kyunghyun and Courville, Aaron and Salakhudinov, Ruslan and Zemel, Rich and Bengio, Yoshua},
+  booktitle={IEEE International Conference on Machine Learning},
+  pages={2048--2057},
+  year={2015}
+}
+@article{lin2017structured,
+  title={A structured self-attentive sentence embedding},
+  author={Lin, Zhouhan and Feng, Minwei and Santos, Cicero Nogueira dos and Yu, Mo and Xiang, Bing and Zhou, Bowen and Bengio, Yoshua},
+  journal={arXiv preprint arXiv:1703.03130},
+  year={2017}
+}
+@inproceedings{isola2017image,
+  title={Image-to-image translation with conditional adversarial networks},
+  author={Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
+  booktitle={Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages={1125--1134},
+  year={2017}
+}
+@article{luong2015effective,
+  title={Effective approaches to attention-based neural machine translation},
+  author={Luong, Minh-Thang and Pham, Hieu and Manning, Christopher D},
+  journal={Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+  pages={1412--1421},
+  year={2015}
+}
+
+@inproceedings{song2016deep,
+  title={Deep sliding shapes for amodal 3d object detection in rgb-d images},
+  author={Song, Shuran and Xiao, Jianxiong},
+  booktitle={Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages={808--816},
+  year={2016}
+}
+@inproceedings{dai2017scannet,
+  title={ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes.},
+  author={Dai, Angela and Chang, Angel X and Savva, Manolis and Halber, Maciej and Funkhouser, Thomas A and Nie{\ss}ner, Matthias},
+  booktitle={Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  volume={2},
+  pages={10},
+  year={2017}
+}
+
+
+@article{lecun2015deep,
+  title={Deep learning},
+  author={LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey},
+  journal={nature},
+  volume={521},
+  number={7553},
+  pages={436},
+  year={2015},
+  publisher={Nature Publishing Group}
+}
+
+@inproceedings{buades2005non,
+  title={A non-local algorithm for image denoising},
+  author={Buades, Antoni and Coll, Bartomeu and Morel, J-M},
+  booktitle={Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year={2005}
+}
+
+
+
+@inproceedings{cheng2016long,
+  title={Long short-term memory-networks for machine reading},
+  author={Cheng, Jianpeng and Dong, Li and Lapata, Mirella},
+  journal={Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+  pages={551--561},
+  year={2016}
+}
+
+@article{parikh2016decomposable,
+  title={A decomposable attention model for natural language inference},
+  author={Parikh, Ankur P and T{\"a}ckstr{\"o}m, Oscar and Das, Dipanjan and Uszkoreit, Jakob},
+  journal={Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+  pages={2249--2255},
+  year={2016}
+}
+@inproceedings{reed2016learning,
+  title={Learning what and where to draw},
+  author={Reed, Scott E and Akata, Zeynep and Mohan, Santosh and Tenka, Samuel and Schiele, Bernt and Lee, Honglak},
+  booktitle={Proceedings of the International Conference on Neural Information Processing Systems},
+  pages={217--225},
+  year={2016}
+}
+
+@article{zhang2018self,
+  title={Self-attention generative adversarial networks},
+  author={Zhang, Han and Goodfellow, Ian and Metaxas, Dimitris and Odena, Augustus},
+  journal={IEEE International Conference on Machine Learning},
+  pages={7354--7363},
+  year={2019}
+}
+
+@Misc{timmurphy.org,
+howpublished = {\url{https://www.datafountain.cn/competitions/314/details/rank?sch=1367&page=1&type=A}},
+note = {Sep 4, 2018},
+author = {DataFountain}
+}
+
+@inproceedings{yang2018segstereo,
+  title={Seg{S}tereo: Exploiting semantic information for disparity estimation},
+  author={Yang, Guorun and Zhao, Hengshuang and Shi, Jianping and Deng, Zhidong and Jia, Jiaya},
+  booktitle={Proceedings of the European Conference on Computer Vision},
+  pages={636--651},
+  year={2018}
+}
+
+@inproceedings{sun2009concise,
+  title={A concise and provably informative multi-scale signature based on heat diffusion},
+  author={Sun, Jian and Ovsjanikov, Maks and Guibas, Leonidas},
+  booktitle={Computer Graphics Forum},
+  volume={28},
+  number={5},
+  pages={1383--1392},
+  year={2009},
+  organization={Wiley Online Library}
+}
+@inproceedings{chen2003visual,
+  title={On visual similarity based 3D model retrieval},
+  author={Chen, Ding-Yun and Tian, Xiao-Pei and Shen, Yu-Te and Ouhyoung, Ming},
+  booktitle={Computer Graphics Forum},
+  pages={223--232},
+  year={2003},
+}
+@inproceedings{teichmann2018multinet,
+  title={Multinet: Real-time joint semantic reasoning for autonomous driving},
+  author={Teichmann, Marvin and Weber, Michael and Zoellner, Marius and Cipolla, Roberto and Urtasun, Raquel},
+  booktitle={IEEE Intelligent Vehicles Symposium (IV)},
+  pages={1013--1020},
+  year={2018},
+  organization={IEEE}
+}
+ 
+@article{kong2018pixel,
+  title={Pixel-wise attentional gating for parsimonious pixel labeling},
+  author={Kong, Shu and Fowlkes, Charless},
+  journal={arXiv preprint arXiv:1805.01556},
+  year={2018}
+}
+@article{wang2019frustum,
+  title={Frustum ConvNet: Sliding Frustums to Aggregate Local Point-Wise Features for Amodal 3D Object Detection},
+  author={Wang, Zhixin and Jia, Kui},
+  journal={arXiv preprint arXiv:1903.01864},
+  year={2019}
+}
+
+@inproceedings{shi2018pointrcnn,
+  title={Pointrcnn: 3d object proposal generation and detection from point cloud},
+  author={Shi, Shaoshuai and Wang, Xiaogang and Li, Hongsheng},
+  journal={Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages={770--779},
+  year={2019}
+}
+@article{wu2018squeezesegv2,
+  title={Squeezesegv2: Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud},
+  author={Wu, Bichen and Zhou, Xuanyu and Zhao, Sicheng and Yue, Xiangyu and Keutzer, Kurt},
+  journal={arXiv preprint arXiv:1809.08495},
+  year={2018}
+}
+
+@inproceedings{kampffmeyer2016semantic,
+  title={Semantic segmentation of small objects and modeling of uncertainty in urban remote sensing images using deep convolutional neural networks},
+  author={Kampffmeyer, Michael and Salberg, Arnt-Borre and Jenssen, Robert},
+  booktitle={Proc. IEEE Conf. Computer Vision and Pattern Recognition Workshops(CVPRW) },
+  pages={1--9},
+  year={2016}
+}
+
+@inproceedings{lin2017feature,
+  title={Feature Pyramid Networks for Object Detection.},
+  author={Lin, Tsung-Yi and Doll{\'a}r, Piotr and Girshick, Ross B and He, Kaiming and Hariharan, Bharath and Belongie, Serge J},
+  booktitle={Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  pages={2117--2125},
+  year={2017},
+
+ 
+}
+
+@inproceedings{wang2018understanding,
+  title={Understanding convolution for semantic segmentation},
+  author={Wang, Panqu and Chen, Pengfei and Yuan, Ye and Liu, Ding and Huang, Zehua and Hou, Xiaodi and Cottrell, Garrison},
+  booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  pages={1451--1460},
+  year={2018},
+  organization={IEEE}
+}
+
+
+@inproceedings{li20173d,
+  title={3d fully convolutional network for vehicle detection in point cloud},
+  author={Li, Bo},
+  booktitle={IEEE International Conference on Intelligent Robots and Systems (IROS)},
+  pages={1513--1518},
+  year={2017},
+  organization={IEEE}
+}
+
+
+@inproceedings{piewak2018boosting,
+  title={Boosting lidar-based semantic labeling by cross-modal training data generation},
+  author={Piewak, Florian and Pinggera, Peter and Sch{\"a}fer, Manuel and Peter, David and Schwarz, Beate and Schneider, Nick and Enzweiler, Markus and Pfeiffer, David and Z{\"o}llner, Marius},
+  booktitle={Proceedings of the European Conference on Computer Vision},
+  pages={497--513},
+  year={2018},
+  organization={Springer}
+}
+
+@inproceedings{armeni20163d,
+  title={3d semantic parsing of large-scale indoor spaces},
+  author={Armeni, Iro and Sener, Ozan and Zamir, Amir R and Jiang, Helen and Brilakis, Ioannis and Fischer, Martin and Savarese, Silvio},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1534--1543},
+  year={2016}
+}
+
+@inproceedings{huang2018apolloscape,
+  title={The apolloscape dataset for autonomous driving},
+  author={Huang, Xinyu and Cheng, Xinjing and Geng, Qichuan and Cao, Binbin and Zhou, Dingfu and Wang, Peng and Lin, Yuanqing and Yang, Ruigang},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={954--960},
+  year={2018}
+}
+@inproceedings{qi2016volumetric,
+  title={Volumetric and multi-view cnns for object classification on 3d data},
+  author={Qi, Charles R and Su, Hao and Nie{\ss}ner, Matthias and Dai, Angela and Yan, Mengyuan and Guibas, Leonidas J},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={5648--5656},
+  year={2016}
+}
+@article{lowe2004distinctive,
+  title={Distinctive image features from scale-invariant keypoints},
+  author={Lowe, David G},
+  journal={International journal of computer vision},
+  volume={60},
+  number={2},
+  pages={91--110},
+  year={2004},
+  publisher={Springer}
+}
+@inproceedings{wu20153d,
+  title={3d shapenets: A deep representation for volumetric shapes},
+  author={Wu, Zhirong and Song, Shuran and Khosla, Aditya and Yu, Fisher and Zhang, Linguang and Tang, Xiaoou and Xiao, Jianxiong},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={1912--1920},
+  year={2015}
+}
+@inproceedings{himmelsbach2008lidar,
+  title={LIDAR-based 3D object perception},
+  author={Himmelsbach, Michael and Mueller, Andre and L{\"u}ttel, Thorsten and W{\"u}nsche, Hans-Joachim},
+  booktitle={Proceedings of 1st international workshop on cognition for technical systems},
+  volume={1},
+  year={2008}
+}
+@inproceedings{feng2014fast,
+  title={Fast plane extraction in organized point clouds using agglomerative hierarchical clustering},
+  author={Feng, Chen and Taguchi, Yuichi and Kamat, Vineet R},
+  booktitle={2014 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={6218--6225},
+  year={2014},
+  organization={IEEE}
+}
+@conference{Munoz-2009-10227,
+author = {Daniel Munoz and J. Andrew (Drew) Bagnell and Nicolas Vandapel and Martial Hebert},
+title = {Contextual Classification with Functional Max-Margin Markov Networks},
+booktitle = {IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR)},
+year = {2009},
+month = {June},
+}
+
+@inproceedings{caltagirone2017fast,
+  title={Fast LIDAR-based road detection using fully convolutional neural networks},
+  author={Caltagirone, Luca and Scheidegger, Samuel and Svensson, Lennart and Wahde, Mattias},
+  booktitle={IEEE Intelligent Vehicles Symposium (IV)},
+  pages={1019--1024},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{lawin2017deep,
+  title={Deep projective 3D semantic segmentation},
+  author={Lawin, Felix J{\"a}remo and Danelljan, Martin and Tosteberg, Patrik and Bhat, Goutam and Khan, Fahad Shahbaz and Felsberg, Michael},
+  booktitle={International Conference on Computer Analysis of Images and Patterns},
+  pages={95--107},
+  year={2017},
+  organization={Springer}
+}
+
+
+
+@article{fischler1981random,
+  title="Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography",
+	author="Martin A. {Fischler} and Robert C. {Bolles}",
+	journal="Communications of The ACM",
+	pages="381--395",
+	year="1981"
+}
+
+@inproceedings{zhang2015ground,
+  title={Ground segmentation based on loopy belief propagation for sparse 3D point clouds},
+  author={Zhang, Mingfang and Morris, Daniel D and Fu, Rui},
+  booktitle={IEEE International Conference on 3D Vision},
+  pages={615--622},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{weinmann2014semantic,
+  title={Semantic 3D scene interpretation: A framework combining optimal neighborhood size selection with relevant features},
+  author={Weinmann, Martin and Jutzi, Boris and Mallet, Cl{\'e}ment},
+  journal={ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  volume={3},
+  pages={181--188},
+  year={2014},
+  publisher={Copernicus GmbH}
+}
+
+
+
+
